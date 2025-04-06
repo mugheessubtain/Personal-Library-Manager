@@ -5,6 +5,7 @@ from pymongo import MongoClient
 MONGO_URI = "mongodb+srv://MugheesPython:mughees16@cluster0.2r2rb.mongodb.net/" 
 client = MongoClient(MONGO_URI)
 print(client)
+
 db = client["LibraryDB"]
 collection = db["Books"]
 
